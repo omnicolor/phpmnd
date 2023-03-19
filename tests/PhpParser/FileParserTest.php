@@ -98,7 +98,7 @@ class FileParserTest extends TestCase
         }
     }
 
-    public function fileToParserProvider(): iterable
+    public static function fileToParserProvider(): iterable
     {
         yield 'empty file' => [
             self::createFileInfo('/unknown', ''),
